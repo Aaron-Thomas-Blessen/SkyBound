@@ -1,76 +1,59 @@
-# **Orrery - A Virtual Solar System Model**
+# **SkyBound - An Interactive Orrery Web App**
 
-Welcome to the Orrery project! This web application presents an interactive model of the solar system, allowing users to visualize and rotate the solar system's celestial bodies. It's an educational and engaging platform that makes understanding the solar system simple and intuitive.
+
+
+Welcome to SkyBound, an interactive web application that brings the solar system to life! Inspired by the historical orreries, SkyBound presents a modern, digital version where you can view and explore celestial bodies like planets, Near-Earth Asteroids, Near-Earth Comets, and Potentially Hazardous Asteroids.
 
 ## **🌟 Introduction**
 
-This README provides an overview of Orrery's features, usage, and development instructions. Whether you’re exploring the planets, Near-Earth Objects (NEOs), or Potentially Hazardous Asteroids (PHAs), this app will guide you through the wonders of our solar system.
+SkyBound is built with Svelte, offering an engaging way to interact with and understand our solar system. Rotate the view, zoom in to specific celestial objects, and gain insights into the spatial arrangement of planets, comets, and asteroids—all from your web browser.
 
 ## **🚀 Features**
 
-The Orrery web app includes the following functionalities:
+SkyBound offers several unique features:
 
-1. **3D Visualization of the Solar System:** The app offers a 3D static view of planets, moons, asteroids, and comets.
-   
-2. **Rotation Controls:** Rotate and view the solar system from different angles to get a better perspective on its structure.
-   
-3. **Celestial Body Highlighting:** Hover over or select planets and asteroids to view detailed information.
-
-4. **Near-Earth Objects (NEOs):** Discover and track asteroids and comets that pass near Earth.
-   
-5. **Potentially Hazardous Asteroids (PHAs):** Learn about asteroids that pose potential risks to Earth.
-   
-6. **User-Friendly Interface:** Simple controls for seamless exploration.
-
-7. **Responsive Design:** Optimized for desktop and mobile, ensuring accessibility for all users.
+1. **Solar System Exploration**: A model of the solar system, allowing users to view and rotate the entire system at different angles.
+2. **Celestial Bodies Overview**: Displays planets, Near-Earth Asteroids, Near-Earth Comets, and Potentially Hazardous Asteroids.
+3. **Intuitive Controls**: Navigate and rotate the solar system in a user-friendly, interactive interface.
+4. **Visual Representation**: Get a clear view of the spatial positioning of planets and other celestial objects.
+5. **Future Enhancements** (coming soon): Potentially interactive features such as selecting individual planets for detailed information.
 
 ## **🛠️ Technologies Used**
 
-- **Frontend:** Svelte
-- **3D Rendering:** Three.js
-- **Backend (optional):** Node.js (for future dynamic features)
-- **Hosting:** Vercel
-- **Build Tools:** npm, Svelte
-- **API Integration:** NASA's Near-Earth Object (NEO) API (future implementation)
+- **Frontend**: Svelte, JavaScript, HTML, CSS
+- **Backend**: Node.js (for future server interactions)
+- **Rendering**: WebGL for 3D visualization
 
 ## **📚 Application**
 
-The Orrery app is designed for:
+SkyBound serves as an educational and exploratory tool:
 
-1. **Educational Purposes:** Helping students, educators, and astronomy enthusiasts visualize the solar system in an interactive way.
-   
-2. **Public Engagement:** Sparking curiosity about celestial bodies, especially near-Earth objects and potentially hazardous asteroids.
-   
-3. **Interactive Learning:** Offering an intuitive platform for exploring the structure and movement of planets and objects in the solar system.
-
-4. **Astronomy Enthusiasts:** Providing a user-friendly interface for amateur astronomers to engage with the solar system.
+1. **Educational Purposes**: Aids students and astronomy enthusiasts in visualizing the arrangement of celestial objects.
+2. **Interactive Learning**: Offers an interactive way to understand the scale and positioning of planets and other objects in the solar system.
+3. **Public Awareness**: Can be used in public displays or classrooms to raise awareness about Near-Earth objects and Potentially Hazardous Asteroids.
 
 ## **🛠️ Getting Started**
 
-Follow these steps to start using the Orrery project:
-
-1. **Visit the [Website](https://orrery-webapp.example.com/)** to view the live application.
+To get started with SkyBound, follow these steps:
    
-2. **Explore the Solar System:** Use your mouse or touchpad to rotate and zoom in on planets and asteroids.
+1. **Rotate the Solar System**: Use your mouse or trackpad to rotate the solar system and explore from different perspectives.
+   
+2. **Zoom and Pan**: Future updates will include zoom and pan features for closer inspections of celestial bodies.
 
-3. **Select Celestial Bodies:** Click on a planet or object to see information about it.
+## **💻 How to Set Up Locally**
 
-4. **Responsive Controls:** The app works on desktop, mobile, and tablet devices.
-
-## **🛠️ How to Set Up Locally**
+To run SkyBound locally, follow these steps:
 
 ### **Requirements**
-
-- **Node.js** and **npm**
-- **Svelte Framework**
-- **Three.js**
-
+- **Node.js and npm**
+- **Svelte**
+  
 ### **Installation Steps**
 
 1. **Clone the Repo:**
    ```bash
-   git clone https://github.com/username/orrery.git
-   cd orrery
+   git clone https://github.com/Aaron-Thomas-Blessen/SkyBound.git
+   cd SkyBound
    ```
 
 2. **Install Dependencies:**
@@ -79,55 +62,34 @@ Follow these steps to start using the Orrery project:
    ```
 
 3. **Run Locally:**
+   Start the development server:
    ```bash
    npm run dev
    ```
 
 4. **Open in Browser:**
-   Open the application in your browser by navigating to [http://localhost:5173](http://localhost:5173).
-
-5. **Build for Production:**
-   To create a production version of the app:
-   ```bash
-   npm run build
-   ```
+   Open the application in your browser by navigating to [http://localhost:5173/](http://localhost:5173/).
 
 ## **📋 Usage**
 
-1. **Rotate the Solar System:** Click and drag the mouse to rotate the solar system and view it from different perspectives.
+1. **Explore the Solar System**: Rotate and view the planets and other objects.
    
-2. **Zoom In/Out:** Use the scroll wheel or pinch to zoom in and out of the solar system model.
+2. **Select Celestial Objects**: (Future feature) Choose planets or asteroids for detailed information.
 
-3. **Select a Celestial Body:** Click on a planet or asteroid to get detailed information.
+3. **Educational Tool**: Use the app to visualize the solar system for personal study or classroom teaching.
 
-4. **Mobile-Friendly:** Enjoy the same functionality on your mobile or tablet device.
-
-## **🛠️ Future Development**
-
-Planned future features include:
-
-1. **NASA NEO API Integration:** Fetch and display real-time data about near-Earth objects.
-
-2. **Dynamic Orbit Tracking:** Implement real-time tracking of celestial bodies using accurate orbital data.
-
-3. **Interactive Learning Modules:** Add educational content for users to learn more about space science.
-
-4. **Potentially Hazardous Asteroids (PHA) Alerts:** Implement alerts for tracking PHAs that may pose a threat to Earth.
-
-## **💻 Developers**
+## **🛠️ Developers**
 
 This project was developed by:
-
 - **[Aaron Thomas Blessen](https://www.linkedin.com/in/aaron-thomas-blessen-390200214/)**
-  
-For contributions, you can open a pull request or issue in the [repository](https://github.com/username/orrery).
 
 ## **💬 Feedback**
 
-We’re continuously improving Orrery! If you have any suggestions or issues, feel free to open an issue on GitHub or reach out via email.
+Your feedback is crucial for improving SkyBound. If you have any suggestions, or issues, or just want to connect, feel free to reach out to us!
 
 ## **📧 Contact Us**
 
-For inquiries or support, please contact us at [aaronthomas232200@gmail.com](mailto:aaronthomas232200@gmail.com).
+For questions or inquiries, reach us at [aaronthomas232200@gmail.com](mailto:aaronthomas232200@gmail.com).
 
-**Explore the wonders of our solar system with Orrery!**
+**Thank you for exploring SkyBound!**
+
