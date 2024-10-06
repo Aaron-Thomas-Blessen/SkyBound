@@ -1,10 +1,5 @@
 # **Orrery - A Virtual Solar System Model**
 
-![Orrery Image](https://drive.google.com/uc?id=1AaUX_aB_QV9QRvU1AmK5MdY_JN6qU-ST)
-
-[Website Link](https://orrery-webapp.example.com/)  
-[Demo Video](https://youtu.be/orrery-demo-video)
-
 Welcome to the Orrery project! This web application presents an interactive model of the solar system, allowing users to visualize and rotate the solar system's celestial bodies. It's an educational and engaging platform that makes understanding the solar system simple and intuitive.
 
 ## **🌟 Introduction**
