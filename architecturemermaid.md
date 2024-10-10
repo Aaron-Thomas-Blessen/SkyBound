@@ -1,6 +1,6 @@
 ```mermaid
-graph TD
-    A[User Inputs/Environment] -->|Sunlight Intensity| B[LDR Sensors]
+graph LR
+    A[Environment Input] -->|Sunlight Intensity| B[LDR Sensors]
     B -->|Analog Signals| C[Arduino Uno]
     C -->|Process Signals| D{Compare East and West Light Intensity}
     D -->|Error Calculation| E[Control Logic]
